@@ -1,2 +1,4 @@
-# ADS18A.20-Programa-o-II
+# ADS18A.20 - Programação II
 Subject's exercises repository
+
+- Felipe S. Vieira
