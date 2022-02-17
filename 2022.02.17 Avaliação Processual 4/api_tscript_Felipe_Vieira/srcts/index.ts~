@@ -1,0 +1,12 @@
+// INTRODUÇÃO AO TYPESCRIPT - WEB API COM EXPRESS
+// ENTRY POINT - index.ts (compilando para -> index.js)
+// import * as express from 'express';
+import express from 'express';
+
+import Rotas from './routes' ;			// ou './routes/index'  linha inserida (importação facilitada, o node procura por um index.js)
+const app = express();
+app.use(Rotas);					//  linha inserida
+app.listen(3000, () => {
+	console.log('*** API INICIADA NA PORTA 3000***');
+	console.log('*** PRESSIONE CTRL+C PARA FINALIZAR ***');
+]);
